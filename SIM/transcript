@@ -1,0 +1,253 @@
+# vsim -do {run -all;exit} -c -novopt SPI_TOP 
+# //  Questa Sim
+# //  Version 10.0b win32 May  5 2011
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing H:\pr_spi\SIM\work.SPI_TOP
+# Refreshing H:\pr_spi\SIM\work.spi_pkg
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.spi_pkg
+# Loading work.SPI_TOP
+# Refreshing H:\pr_spi\SIM\work.spi_if
+# Loading work.spi_if
+# Refreshing H:\pr_spi\SIM\work.spi_top
+# Loading work.spi_top
+# Refreshing H:\pr_spi\SIM\work.spi_clgen
+# Loading work.spi_clgen
+# Refreshing H:\pr_spi\SIM\work.spi_shift
+# Loading work.spi_shift
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 128
+#           Attempting to use alternate WLF file "./wlft5ybss2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5ybss2
+# ** Warning: (vsim-3015) ../TOP/spi_top.sv(28): [PCDPC] - Port size (32 or 32) does not match connection size (8) for port 'ss_pad_o'. The port definition is at: ../RTL/spi_top.v(52).
+#         Region: /SPI_TOP/DUT
+# ** Warning: (vsim-8607) ../RTL/spi_top.v(120): Non-positive replication multiplier inside concat. Replication will be ignored.
+# ** Warning: (vsim-8441) ../ENV//master_driver.sv(37): Clocking block output vif.masterdr_cb.wb_adr_i is not legal in this
+# or another expression.
+#         Region: /spi_pkg::master_driver
+# ** Warning: (vsim-8441) ../ENV//master_driver.sv(38): Clocking block output vif.masterdr_cb.wb_dat_i is not legal in this
+# or another expression.
+#         Region: /spi_pkg::master_driver
+# Loading C:\questasim_10.0b\uvm-1.0p1\win32\uvm_dpi.dll
+# run -all 
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# UVM_INFO @ 0: reporter [RNTST] Running test spi_test...
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# ------------------------------------------------------------------
+# Name                       Type                        Size  Value
+# ------------------------------------------------------------------
+# uvm_test_top               spi_test                    -     @460 
+#   env_h                    spi_env                     -     @469 
+#     magent_h               master_agent                -     @485 
+#       m_drv_h              master_driver               -     @711 
+#         rsp_port           uvm_analysis_port           -     @726 
+#         sqr_pull_port      uvm_seq_item_pull_port      -     @718 
+#       m_mon_h              master_monitor              -     @734 
+#         an_mtrans_port     uvm_analysis_port           -     @741 
+#       m_seqr_h             master_seqr                 -     @602 
+#         rsp_export         uvm_analysis_export         -     @609 
+#         seq_item_export    uvm_seq_item_pull_imp       -     @703 
+#         arbitration_queue  array                       0     -    
+#         lock_queue         array                       0     -    
+#         num_last_reqs      integral                    32    'd1  
+#         num_last_rsps      integral                    32    'd1  
+#     sagent_h               slave_agent                 -     @492 
+#       s_drv_h              slave_driver                -     @884 
+#         rsp_port           uvm_analysis_port           -     @899 
+#         sqr_pull_port      uvm_seq_item_pull_port      -     @891 
+#       s_mon_h              slave_monitor               -     @869 
+#         an_strans_port     uvm_analysis_port           -     @876 
+#       s_seqr_h             slave_seqr                  -     @760 
+#         rsp_export         uvm_analysis_export         -     @767 
+#         seq_item_export    uvm_seq_item_pull_imp       -     @861 
+#         arbitration_queue  array                       0     -    
+#         lock_queue         array                       0     -    
+#         num_last_reqs      integral                    32    'd1  
+#         num_last_rsps      integral                    32    'd1  
+#     sb_h                   spi_sb                      -     @499 
+#       an_masterfifo        uvm_tlm_analysis_fifo #(T)  -     @506 
+#         analysis_export    uvm_analysis_imp            -     @545 
+#         get_ap             uvm_analysis_port           -     @537 
+#         get_peek_export    uvm_get_peek_imp            -     @521 
+#         put_ap             uvm_analysis_port           -     @529 
+#         put_export         uvm_put_imp                 -     @513 
+#       an_slavefifo         uvm_tlm_analysis_fifo #(T)  -     @553 
+#         analysis_export    uvm_analysis_imp            -     @592 
+#         get_ap             uvm_analysis_port           -     @584 
+#         get_peek_export    uvm_get_peek_imp            -     @568 
+#         put_ap             uvm_analysis_port           -     @576 
+#         put_export         uvm_put_imp                 -     @560 
+# ------------------------------------------------------------------
+# 
+# ************
+# char_len=48
+# char_len=**1
+# tx=11000110111001000110010111001000
+# ************
+# rx=2080009646
+# rx=1001101001111000010010111100111001111011111110100110110110101110
+#  SUCCESS ! miso = 0 : 0 = rx
+# 
+# 
+#  mismatch ! miso = 0 : 1 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 1 : 0 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 1 : 0 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 0 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 1 : 0 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 0 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 1 : 0 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 0 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 1 : 0 = rx
+# 
+# 
+#  SUCCESS ! miso = 0 : 0 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  SUCCESS ! miso = 0 : 0 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 0 : 1 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 0 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 0 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 0 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 1 : 0 = rx
+# 
+# 
+#  mismatch ! miso = 0 : 1 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 1 : 0 = rx
+# 
+# 
+#  SUCCESS ! miso = 0 : 0 = rx
+# 
+# 
+#  mismatch ! miso = 0 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 0 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 0 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 1 : 0 = rx
+# 
+# 
+#  SUCCESS ! miso = 0 : 0 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 1 : 0 = rx
+# 
+# 
+#  mismatch ! miso = 0 : 1 = rx
+# 
+# 
+#  SUCCESS ! miso = 0 : 0 = rx
+# 
+# 
+#  mismatch ! miso = 1 : 0 = rx
+# 
+# 
+#  SUCCESS ! miso = 1 : 1 = rx
+# 
+# 
+#  mismatch ! miso = 1 : 0 = rx
+# 
+# 
+#  SUCCESS ! miso = 0 : 0 = rx
+# 
+# 
+# Break key hit 
+# Break at ../RTL/spi_top.v line 28
+# Stopped at ../RTL/spi_top.v line 28 
+# exit 

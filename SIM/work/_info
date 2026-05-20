@@ -1,0 +1,217 @@
+m255
+K3
+13
+cModel Technology
+Z0 dB:\protocol\spi_protocol\SIM
+vspi_clgen
+V>@GJLPVPH:>IHELkhd^ej1
+r1
+31
+IdW9E:d;<4]LAYY6Q2CzJ?2
+Z1 dH:\pr_spi\SIM
+w1580902732
+8../RTL/spi_clgen.v
+F../RTL/spi_clgen.v
+L0 44
+Z2 OE;L;10.0b;49
+Z3 !s108 1582887439.878000
+Z4 !s107 ../TEST//spi_test.sv|../ENV//spi_env.sv|../ENV//spi_sb.sv|../ENV//slave_agent.sv|../ENV//master_agent.sv|../ENV//slave_monitor.sv|../ENV//master_monitor.sv|../ENV//slave_driver.sv|../ENV//master_driver.sv|../ENV//slave_seqr.sv|../ENV//master_seqr.sv|../ENV//slave_seqs.sv|../ENV//master_seqs.sv|../ENV//slave_trans.sv|../ENV//master_trans.sv|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_deprecated_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_reg_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_callback_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_sequence_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/tlm1/uvm_tlm_imps.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_tlm_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_printer_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_object_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_phase_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_message_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_version_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/uvm_macros.svh|../RTL//spi_defines.v|../TOP/spi_top.sv|../TEST/spi_pkg.sv|../ENV/interface.sv|../RTL/spi_if.sv|../RTL/timescale.v|../RTL/spi_top.v|../RTL/spi_slave.v|../RTL/spi_shift.v|../RTL/spi_defines.v|../RTL/spi_clgen.v|
+Z5 !s90 ../RTL/spi_clgen.v|../RTL/spi_defines.v|../RTL/spi_shift.v|../RTL/spi_slave.v|../RTL/spi_top.v|../RTL/timescale.v|../RTL/spi_if.sv|../ENV/interface.sv|../TEST/spi_pkg.sv|../TOP/spi_top.sv|+incdir+../ENV/|+incdir+../TEST/|+incdir+../RTL/|
+Z6 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z7 !s92 +incdir+../ENV/ +incdir+../TEST/ +incdir+../RTL/ -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s85 0
+!s100 8W01`S3>=lenkK2>f>67a1
+Yspi_if
+Z8 DXx6 sv_std 3 std 0 22 :CP]PHbGOHGT_H:3KF`8L2
+Ve:IJ9daH6<mXb88lAoH?P0
+r1
+31
+IamF?7W3nF[Fi;?H9F7VX70
+S1
+R1
+w1582796063
+8../ENV/interface.sv
+F../ENV/interface.sv
+L0 1
+R2
+R3
+R4
+R5
+R6
+R7
+!s85 0
+!s100 N4PQG2o7lP[7Q2U]D3B>]2
+!s105 interface_sv_unit
+Xspi_pkg
+R8
+Z9 DXx6 mtiUvm 7 uvm_pkg 0 22 8eb@ESBO]d@L>K^c5RzQ31
+V@a3PEhjK85zfbURZA@?793
+r1
+31
+I@a3PEhjK85zfbURZA@?793
+S1
+R1
+w1582887433
+8../TEST/spi_pkg.sv
+F../TEST/spi_pkg.sv
+Z10 FC:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/uvm_macros.svh
+Z11 FC:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_version_defines.svh
+Z12 FC:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_message_defines.svh
+Z13 FC:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_phase_defines.svh
+Z14 FC:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_object_defines.svh
+Z15 FC:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_printer_defines.svh
+Z16 FC:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_tlm_defines.svh
+Z17 FC:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/tlm1/uvm_tlm_imps.svh
+Z18 FC:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_sequence_defines.svh
+Z19 FC:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_callback_defines.svh
+Z20 FC:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_reg_defines.svh
+Z21 FC:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_deprecated_defines.svh
+F../ENV//master_trans.sv
+F../ENV//slave_trans.sv
+F../ENV//master_seqs.sv
+F../ENV//slave_seqs.sv
+F../ENV//master_seqr.sv
+F../ENV//slave_seqr.sv
+F../ENV//master_driver.sv
+F../ENV//slave_driver.sv
+F../ENV//master_monitor.sv
+F../ENV//slave_monitor.sv
+F../ENV//master_agent.sv
+F../ENV//slave_agent.sv
+F../ENV//spi_sb.sv
+F../ENV//spi_env.sv
+F../TEST//spi_test.sv
+L0 1
+R2
+R3
+R4
+R5
+R6
+R7
+!s85 0
+!s100 >g1E@b6HgghHMK]co>zCT2
+vspi_shift
+V9LhR8W?@2`l?3RDh4`f?^1
+r1
+!s85 0
+31
+Ik=V^KXDPD`R6IRZ09Cj:Z1
+R1
+w1581143894
+8../RTL/spi_shift.v
+F../RTL/spi_shift.v
+L0 44
+R2
+R3
+R4
+R5
+R6
+R7
+!s100 3`JJCk6>:_WJ;?T5C;0Q01
+vspi_slave
+I@0kWZI]]>RRf<<kP;eEb@2
+VOWgfE7d4nFa@Aj2Mde^z`0
+R1
+w1582129788
+8../RTL/spi_slave.v
+F../RTL/spi_slave.v
+L0 21
+R2
+r1
+31
+R3
+R4
+R5
+R6
+R7
+!s100 <R3eFXlfNiinMAZU;Ke[B3
+!s85 0
+vSPI_TOP
+R8
+R9
+DXx4 work 7 spi_pkg 0 22 @a3PEhjK85zfbURZA@?793
+VChEeMBkRB2WYT;5ACZ[SS3
+r1
+31
+IF4i^?InndP[Fi0Xb<eMSC1
+Z22 !s105 spi_top_sv_unit
+S1
+R1
+w1582563365
+Z23 8../TOP/spi_top.sv
+Z24 F../TOP/spi_top.sv
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+R20
+R21
+L0 2
+R2
+R3
+R4
+R5
+R6
+R7
+n@s@p@i_@t@o@p
+!s85 0
+!s100 ]`h]b1nLAPnPDEhgP3T?00
+vspi_top
+VgN0B[d_HDK7zfD;Qb9>XU3
+r1
+31
+I5W63UK=@0?5a6^K1;Zz_X1
+R1
+w1580823583
+8../RTL/spi_top.v
+F../RTL/spi_top.v
+L0 45
+R2
+R3
+R4
+R5
+R6
+R7
+!s85 0
+!s100 R?6lP0oB^PQT689kz2NGk2
+vspi_top1
+R8
+R9
+DXx4 work 7 spi_pkg 0 22 ?1DV<QFLjhQK`3o7=A8e>3
+V?1>SdHhZ8HRXi0JdT:_N;0
+r1
+31
+IA5z3P64^YPoY_JE>?4a_g0
+R22
+S1
+Z25 dB:\protocol\spi_protocol\SIM
+w1580900540
+R23
+R24
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+R20
+R21
+L0 1
+R2
+R6
+!s92 +incdir+../ENV/ +incdir+../TEST +incdir+../RTL/ -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s107 ../TEST/spi_test.sv|../ENV//spi_env.sv|../ENV//spi_sb.sv|../ENV//slave_agent.sv|../ENV//master_agent.sv|../ENV//slave_monitor.sv|../ENV//master_monitor.sv|../ENV//slave_driver.sv|../ENV//master_driver.sv|../ENV//slave_seqr.sv|../ENV//master_seqr.sv|../ENV//slave_seqs.sv|../ENV//master_seqs.sv|../ENV//slave_trans.sv|../ENV//master_trans.sv|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_deprecated_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_reg_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_callback_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_sequence_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/tlm1/uvm_tlm_imps.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_tlm_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_printer_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_object_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_phase_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_message_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_version_defines.svh|C:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/uvm_macros.svh|../TOP/spi_top.sv|../TEST/spi_pkg.sv|../ENV/interface.sv|../RTL/spi_if.sv|
+!s90 ../RTL/spi_if.sv|../ENV/interface.sv|../TEST/spi_pkg.sv|../TOP/spi_top.sv|+incdir+../ENV/|+incdir+../TEST|+incdir+../RTL/|
+!s108 1580900545.585000
+!s100 mOfEiI>eRl7kO`fig9_RG3
+!s85 0
